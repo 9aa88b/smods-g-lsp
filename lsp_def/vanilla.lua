@@ -81,6 +81,11 @@ AnimatedSprite = {}
 function AnimatedSprite:__call(...) return self end
 
 ---@class Blind: Moveable
+---@field boss boolean
+---@field disabled boolean
+---@field name string
+---@field chips number
+---@field dollars number
 ---@overload fun(...: any): Blind|table
 Blind = {}
 function Blind:__call(...) return self end
